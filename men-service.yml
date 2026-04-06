@@ -18,3 +18,9 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka
+
+logging:
+  level:
+    root: INFO
+    com.textile.men_service.controller: INFO
+    com.textile.men_service.service: DEBUG
